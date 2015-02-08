@@ -54,7 +54,7 @@ public class YandexSearch {
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             BufferedImage fullImg = ImageIO.read(screenshot);
             ImageIO.write(fullImg, "png", screenshot);
-            FileUtils.copyFile(screenshot, new File("C:\\Selenium\\YandexSearch\\TheFirstLintIsNotWiki.png"));
+            FileUtils.copyFile(screenshot, new File("C:\\Selenium\\YandexSearch\\NoSuchLink.png"));
         }
     }
 
